@@ -1,0 +1,26 @@
+<div id="game" style="height: 600px; width: 800px; margin-left: auto; margin-right: auto;"></div>
+
+<script src="node_modules/requirejs/require.js"></script>
+<script>
+    requirejs.config({
+        baseUrl: 'node_modules/grape-engine/js/grape',
+        paths: {
+            grape: 'main' //todo context
+        }
+    });
+    require(['grape'], function() {
+        requirejs.config({
+            baseUrl: '../../js/multiplayer',
+            paths: {
+                multiplayer: 'client'
+            }
+        });
+        require(['multiplayer'], function () {
+            requirejs.config({
+                baseUrl: './js'
+            });
+            require(['pong'], function () {
+            });
+        });
+    });
+</script>

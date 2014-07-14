@@ -1,4 +1,4 @@
-define(['../../../../grape2/build/grape.min'], function (Grape) {
+define(['grape'], function (Grape) {
     'use strict';
 
     //DEFINE RESOURCES

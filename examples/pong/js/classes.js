@@ -11,7 +11,7 @@ define(['grape', 'resources'], function (Grape, Resources) {
         init: function () {
             this.alpha = 0.6;
         },
-        'event localPress.mouseLeft': function () {
+        'event keyPress.mouseLeft': function () {
             this.getGame().setCursor('auto');
             this.action();
         },
@@ -31,10 +31,6 @@ define(['grape', 'resources'], function (Grape, Resources) {
             this.sprite = Resources.get('newgame');
         },
         action: function () {
-            this.getGame().startScene(new Scenes.WaitingScene());
-        },
-        'event localPress.mouseRight': function () {
-            this.getGame().setCursor('auto');
             this.getGame().startScene(new Scenes.WaitingScene());
         }
     });

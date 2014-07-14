@@ -3,7 +3,8 @@
  */
 
 var requirejs = require('requirejs');
-requirejs.config({
+var mpRequire = requirejs.config({
+    context: 'grape-multiplayer',
     baseUrl: __dirname + '/' + 'js/multiplayer'
 });
-module.exports = requirejs('main');
+module.exports = mpRequire('server');
