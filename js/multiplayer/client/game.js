@@ -1,4 +1,4 @@
-define(['client/connection', 'common/interfaces'], function (Connection/*, Interfaces*/) {
+define(['./connection', '../common/interfaces'], function (Connection/*, Interfaces*/) {
 
     var Game = Grape.Class('Multiplayer.Game', Grape.Game, {
         connect: function (opts) { //todo check

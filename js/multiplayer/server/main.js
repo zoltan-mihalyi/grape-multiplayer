@@ -1,4 +1,4 @@
-define(['server/user','server/server'], function (User, Server) {
+define(['./user','./server'], function (User, Server) {
     return {
         User: User,
         Server: Server

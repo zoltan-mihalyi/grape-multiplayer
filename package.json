@@ -1,0 +1,37 @@
+{
+  "name": "grape-multiplayer",
+  "version": "0.0.1",
+  "description": "A multiplayer plugin for Grape game engine using WebSocket and node.js",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zoltan-mihalyi/grape-multiplayer.git"
+  },
+  "keywords": [
+    "Grape",
+    "game",
+    "engine",
+    "multiplayer",
+    "WebSocket",
+    "HTML5"
+  ],
+  "author": "Zoltan Mihalyi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zoltan-mihalyi/grape-multiplayer/issues"
+  },
+  "homepage": "https://github.com/zoltan-mihalyi/grape-multiplayer",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-uglify": "0.3.2"
+  },
+  "dependencies": {
+    "requirejs": "~2.1.14"
+  }
+}

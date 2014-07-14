@@ -1,4 +1,4 @@
-define(['common/interfaces'], function (Interfaces) {
+define(['../common/interfaces'], function (Interfaces) {
 
     var Connection = Grape.Class('Multiplayer.Connection', Grape.EventEmitter, {
         STATUS_CONNECTING: 0,

@@ -4,7 +4,7 @@
 //syncing clients?
 //what if sg should be visible for a client but not for another
 //todo 'not running' error
-define(['client/main', 'common/main'], function (Client, Common) {
+define(['./client/main', './common/main'], function (Client, Common) {
     /*global Grape*/
     //TODO read json levels without ajax
 

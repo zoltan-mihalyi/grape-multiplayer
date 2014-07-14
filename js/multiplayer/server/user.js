@@ -1,4 +1,4 @@
-define(['common/interfaces'], function (Interfaces) {
+define(['../common/interfaces'], function (Interfaces) {
     var nextId = 1;
     //todo handle what if connection closed, game ended etc.
     var User = Grape.Class('Multiplayer.User', [Grape.EventEmitter, Grape.Taggable], {

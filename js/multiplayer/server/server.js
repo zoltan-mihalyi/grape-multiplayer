@@ -1,4 +1,4 @@
-define(['common/interfaces', 'server/user'], function (Interfaces, User) {
+define(['../common/interfaces', './user'], function (Interfaces, User) {
     var WebSocketServer = require('ws').Server;
 
     var nextId = 1;

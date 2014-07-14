@@ -1,4 +1,4 @@
-define(['common/synchronized'], function (Synchronized) {
+define(['./synchronized'], function (Synchronized) {
     var isServer = Grape.Env.node; //todo configure?
 
     Grape.Class.registerKeyword('command', { //todo require controllable class
